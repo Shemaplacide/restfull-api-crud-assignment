@@ -4,7 +4,7 @@ A RESTful API built with **Spring Boot** and **PostgreSQL** that allows you to m
 
 ---
 
-## Author
+##  Author
 
 **Name:** Shema Placide  
 **ID:** 26497  
@@ -27,7 +27,7 @@ This project implements all four operations through REST API endpoints.
 
 ---
 
-##  Tech Stack
+## 🛠️ Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -112,6 +112,7 @@ spring.datasource.username=postgres
 spring.datasource.password=admin
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
+server.port=8091
 ```
 
 > **Note:** `ddl-auto=update` means Hibernate will automatically create or update the product table in the database when the app starts. You do not need to create the table manually.
@@ -122,7 +123,7 @@ spring.jpa.show-sql=true
 
 ### Base URL
 ```
-http://localhost:8080/api/products
+http://localhost:8091/api/products
 ```
 
 ---
@@ -317,7 +318,7 @@ http://localhost:8080/api/products
 
 1. Open **Postman**
 2. Choose the request method (GET, POST, PUT, DELETE)
-3. Enter the full URL e.g. `http://localhost:8080/api/products`
+3. Enter the full URL e.g. `http://localhost:8091/api/products`
 4. For **POST** and **PUT** requests:
    - Click on **Body** tab → select **raw** → choose **JSON**
    - Paste your JSON data
@@ -342,7 +343,7 @@ mvn spring-boot:run
 ```
 
 ### Step 3 — Test it
-Open Postman and start sending requests to `http://localhost:8080/api/products`
+Open Postman and start sending requests to `http://localhost:8091/api/products`
 
 ---
 
