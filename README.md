@@ -35,7 +35,7 @@ This project implements all four operations through REST API endpoints.
 | **Spring Boot 4.0.2** | Framework for building the API |
 | **Spring Data JPA** | Simplifies database operations |
 | **Hibernate ORM** | Maps Java objects to database tables |
-| **PostgreSQL 16.11** | Database to store products |
+| **PostgreSQL 18** | Database to store products |
 | **Maven** | Manages project dependencies |
 | **Postman** | Used to test the API endpoints |
 
